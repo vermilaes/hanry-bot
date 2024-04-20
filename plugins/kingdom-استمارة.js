@@ -29,7 +29,7 @@ let handler = async (m, { conn }) => {
 「⊰ HEROS ⚜️ ⊱」`;
     
 
-    conn.sendFile(m.chat, 'https://telegra.ph/file/722efd258d6ac9bd9f645.jpg', 'image.jpg', message, m);
+    conn.sendFile(m.chat, 'https://telegra.ph/file/4f77484c5b91567e2b1fa.jpg', 'image.jpg', message, m);
 };
 
 handler.customPrefix = /^(الاستمارة|استمارة)$/i;
