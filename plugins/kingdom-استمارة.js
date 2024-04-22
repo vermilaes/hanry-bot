@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
 
 *↫من طرف مين🖇️↬┋『』┋❥*
 
-*↫صبي ولا بنت🎎↬┋『』┋❥*
+*↫ولد ولا بنت🎎↬┋『』┋❥*
 
 *[الرجاء ارفاق صورة لللقب✨]*
 
@@ -29,10 +29,10 @@ let handler = async (m, { conn }) => {
 「⊰ HEROS ⚜️ ⊱」`;
     
 
-    conn.sendFile(m.chat, 'https://telegra.ph/file/4f77484c5b91567e2b1fa.jpg', 'image.jpg', message, m);
+    conn.sendFile(m.chat, 'https://telegra.ph/file/db32a13d171642e07ec2a.jpg', 'image.jpg', message, m);
 };
 
-handler.customPrefix = /^(الاستمارة|استمارة)$/i;
+handler.customPrefix = /^(استمارة|الاستمارة)$/i;
 handler.command = new RegExp;
 
 export default handler;
